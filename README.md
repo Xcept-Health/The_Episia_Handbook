@@ -4,7 +4,7 @@
 
 # The Episia Handbook
 
-Practical tutorials, case studies, and best practices for Episia – the open-source epidemiology and biostatistics library for Python
+Practical tutorials, case studies, and best practices for Episia, the open-source epidemiology and biostatistics library for Python
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square&logo=python)](https://python.org)
 [![Episia](https://img.shields.io/badge/Episia-0.1.1-orange?style=flat-square)](https://github.com/Xcept-Health/episia)
