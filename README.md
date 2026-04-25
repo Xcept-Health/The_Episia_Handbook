@@ -42,34 +42,132 @@ Episia core library: https://github.com/Xcept-Health/episia
 
 ```
 
-The_Episia_Handbook/
+TThe_Episia_Handbook/
 ├── 01_biostatistics/
-│   ├── risk_ratio_tutorial.ipynb
-│   ├── diagnostic_test_evaluation.ipynb
-│   └── sample_size_calculations.ipynb
+│   ├── fundamentals/
+│   │   ├── proportions.ipynb
+│   │   ├── risk_ratio.ipynb
+│   │   └── odds_ratio.ipynb
+│   ├── diagnostic_tests/
+│   │   ├── sensitivity_specificity.ipynb
+│   │   ├── predictive_values.ipynb
+│   │   └── roc_analysis.ipynb
+│   └── sample_size/
+│       ├── cohort_sample_size.ipynb
+│       └── case_control_sample_size.ipynb
 │
 ├── 02_epidemic_models/
-│   ├── seir_burkina_faso.ipynb
-│   ├── model_calibration_fitting.ipynb
-│   └── monte_carlo_sensitivity.ipynb
+│   ├── deterministic/
+│   │   ├── sir_model.ipynb
+│   │   ├── seir_model.ipynb
+│   │   └── seird_model.ipynb
+│   ├── calibration/
+│   │   ├── parameter_fitting.ipynb
+│   │   └── optimization_methods.ipynb
+│   └── simulation/
+│       ├── monte_carlo.ipynb
+│       └── scenario_analysis.ipynb
 │
 ├── 03_surveillance_data/
-│   ├── meningitis_alert_system.ipynb
-│   ├── working_with_dhis2.ipynb
-│   └── epidemic_curves_and_trends.ipynb
+│   ├── dhis2/
+│   │   ├── data_extraction.ipynb
+│   │   └── api_integration.ipynb
+│   ├── outbreak_detection/
+│   │   ├── alert_thresholds.ipynb
+│   │   └── endemic_channel.ipynb
+│   └── time_series/
+│       ├── epidemic_curves.ipynb
+│       └── trend_analysis.ipynb
 │
 ├── 04_reporting/
-│   └── automated_bulletins.ipynb
+│   ├── automated_reports/
+│   │   ├── epi_report.ipynb
+│   │   └── bulletin_generation.ipynb
+│   └── export_formats/
+│       ├── html_export.ipynb
+│       ├── pdf_export.ipynb
+│       └── json_export.ipynb
 │
 ├── 05_visualization/
-│   └── plotly_matplotlib_guide.ipynb
+│   ├── matplotlib/
+│   │   ├── basic_plots.ipynb
+│   │   └── publication_style.ipynb
+│   ├── plotly/
+│   │   ├── interactive_plots.ipynb
+│   │   └── dashboards.ipynb
+│   └── animations/
+│       └── epidemic_animation.ipynb
 │
 ├── 06_case_studies/
-│   ├── meningitis_outbreak_kaya/
-│   ├── hiv_cascade_burkina/
-│   └── malaria_rdt_evaluation/
+│   ├── meningitis_kaya/
+│   │   ├── data.csv
+│   │   └── analysis.ipynb
+│   ├── hiv_burkina/
+│   │   ├── cascade_analysis.ipynb
+│   │   └── targets.ipynb
+│   └── malaria_rdt/
+│       ├── evaluation.ipynb
+│       └── roc_curve.ipynb
 │
 ├── 07_advanced/
+│   ├── stochastic_models/
+│   │   ├── stochastic_sir.ipynb
+│   │   └── gillespie_algorithm.ipynb
+│   ├── spatial_models/
+│   │   ├── spatial_spread.ipynb
+│   │   └── geospatial_analysis.ipynb
+│   └── bayesian_methods/
+│       ├── bayesian_inference.ipynb
+│       └── mcmc_epidemic.ipynb
+│
+├── 08_machine_learning/
+│   ├── sklearn/
+│   │   ├── classification/
+│   │   │   ├── logistic_regression.ipynb
+│   │   │   ├── random_forest.ipynb
+│   │   │   └── svm.ipynb
+│   │   ├── regression/
+│   │   │   ├── linear_regression.ipynb
+│   │   │   └── ridge_lasso.ipynb
+│   │   └── preprocessing/
+│   │       ├── scaling.ipynb
+│   │       └── feature_engineering.ipynb
+│   │
+│   └── workflows/
+│       ├── pipeline_epidemiology.ipynb
+│       └── model_evaluation.ipynb
+│
+├── 09_deep_learning/
+│   ├── tensorflow/
+│   │   ├── basics/
+│   │   │   └── keras_intro.ipynb
+│   │   ├── time_series/
+│   │   │   └── lstm_forecasting.ipynb
+│   │   └── models/
+│   │       └── epidemic_prediction_tf.ipynb
+│   │
+│   ├── pytorch/
+│   │   ├── basics/
+│   │   │   └── torch_intro.ipynb
+│   │   ├── time_series/
+│   │   │   └── lstm_pytorch.ipynb
+│   │   └── models/
+│   │       └── epidemic_prediction_torch.ipynb
+│   │
+│   └── hybrid/
+│       └── epi_ml_hybrid_models.ipynb
+│
+├── 10_agent/
+│   └── episia_streamlit_agent/
+│       ├── __init__.py
+│       ├── app.py
+│       ├── agent.py
+│       ├── tools.py
+│       ├── utils.py
+│       ├── prompts.py
+│       ├── requirements.txt
+│       ├── .env.example
+│       └── README.md
 │
 ├── scripts/
 │   ├── quick_report.py
